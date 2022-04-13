@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContentComponent } from './content/content.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { TeamComponent } from './Team/Team.component';
 import { FooterComponent } from './footer/footer.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PricingComponent } from './pricing/pricing.component';
@@ -21,7 +21,7 @@ import { ConfigService } from './config.service';
     IntroComponent,
     GalleryComponent,
     ContentComponent,
-    TestimonialsComponent,
+    TeamComponent,
     FooterComponent,
     ClientsComponent,
     PricingComponent,

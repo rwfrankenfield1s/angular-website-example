@@ -6,14 +6,16 @@
       <div id="logo">
         <!--Logo that is shown on the banner-->
         <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" />
+        
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
-        <img
+       <!--  <img
           src="assets/images/logo-2.png"
           id="navigation-logo"
           alt="Landing Page"
-        />
+        /> -->
+        <h4>Sharp Connections</h4>
         <!--End of Navigation Logo-->
       </div>
       <!--End of Logo-->
@@ -40,7 +42,7 @@
               >About</a
             >
           </li>
-          <li>
+<!--           <li>
             <a
               routerLink="/Gallery"
               (click)="getActiveTab('gallery')"
@@ -55,16 +57,16 @@
               [class.active]="activetab === 'services'"
               >Services</a
             >
-          </li>
+          </li> -->
           <li>
             <a
-              routerLink="/Testimonials"
-              (click)="getActiveTab('testimonials')"
-              [class.active]="activetab === 'testimonials'"
-              >Testimonials</a
+              routerLink="/Team"
+              (click)="getActiveTab('Team')"
+              [class.active]="activetab === 'Team'"
+              >Team</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a
               routerLink="/Clients"
               (click)="getActiveTab('clients')"
@@ -79,7 +81,7 @@
               [class.active]="activetab === 'pricing'"
               >Pricing</a
             >
-          </li>
+          </li> -->
         </ul>
       </nav>
       <!--End of Main Navigation-->

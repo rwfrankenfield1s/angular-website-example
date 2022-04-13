@@ -1,9 +1,9 @@
 export const configuration = {
   header: {
-    heading: 'My website',
+    heading: 'Sharp Connections',
     headingtext:
-      'Namari is a free landing page template you can use for your projects.',
-    buttontext: 'do some action',
+      'Holding success - Holding the future ',
+    buttontext: 'Learn More',
     buttonlink: '\home'
   }
 };
